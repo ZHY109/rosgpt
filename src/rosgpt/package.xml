@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rosgpt</name>
+  <version>0.0.0</version>
+  <description>The rosgpt package</description>
+  <maintainer email="1094404954@qq.com">cheng</maintainer>
+  <license>MIT</license>
+  <author email="1094404954@qq.com">Alan Cheng</author> 
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+</package>

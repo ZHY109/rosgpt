@@ -1,0 +1,6 @@
+<launch>
+<node name="rosgpt" pkg="rosgpt" type = "rosgpt.py" output="screen">
+</node>
+</launch>
+
+
