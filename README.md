@@ -19,4 +19,5 @@ This project is a simple app of chatGPT in ros, allows you deploy into your robo
 
 ## How to use it
 Pub topic /Question with msg type String to get respond:
-Example: rostopic pub /Question std_msgs/String -- 'How are you?'
+Example: 
+### rostopic pub /Question std_msgs/String -- 'How are you?'
