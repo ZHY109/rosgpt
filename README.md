@@ -20,8 +20,8 @@ This project is a simple app of chatGPT in ros, allows you deploy into your robo
 4.  ```roslaunch rosgpt rosgpt.launch ```
 
 ## How to use it
-Pub topic /Question with msg type String to get respond.
-Then look at the terminal or  ```rostospic echo /Responce```
+1. Pub topic /Question with msg type String to get respond.
+2. Then look at the terminal or  ```rostopic echo /Responce```
 
 ### Try this 
  ```rostopic pub /Question std_msgs/String -- 'How are you?' ```
