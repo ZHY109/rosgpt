@@ -6,12 +6,14 @@ This project is a simple app of chatGPT in ros, allows you deploy into your robo
 ## Install 
 ### Python>=3.8
 1. ```pip install openai```
+2. ```pip install rospy```
 
 ### Python<3.8
 1. download and install Python>=3.8( Python3.8 is recommanded).
 2. ```sudo gedit src/rosgpt/scripts/rosgpt.py``` 
 3. The first line should be the location of Python(>=3.8).
 4. ```pip install openai```
+5. ```pip install rospy```
 
 ## How to launch it
 1. ```sudo gedit src/rosgpt/scripts/rosgpt.py```
